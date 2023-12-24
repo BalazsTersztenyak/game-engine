@@ -1,0 +1,3 @@
+[submodule "Lilac/vendor/spdlog"]
+	path = Lilac/vendor/spdlog
+	url = https://github.com/gabime/spdlog
