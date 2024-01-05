@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lilac">
+      <UniqueIdentifier>{8AB2990D-F6C6-C1BE-BF48-651E2B1CBEEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Lilac.h" />
+    <ClInclude Include="src\Lilac\Application.h">
+      <Filter>Lilac</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\Core.h">
+      <Filter>Lilac</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\EntryPoint.h">
+      <Filter>Lilac</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\Log.h">
+      <Filter>Lilac</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Lilac\Application.cpp">
+      <Filter>Lilac</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lilac\Log.cpp">
+      <Filter>Lilac</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
