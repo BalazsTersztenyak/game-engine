@@ -4,6 +4,9 @@
     <Filter Include="Lilac">
       <UniqueIdentifier>{8AB2990D-F6C6-C1BE-BF48-651E2B1CBEEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lilac\Events">
+      <UniqueIdentifier>{2EDF6F94-1A42-FF38-C3C7-37EFAF09CBBB}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Lilac.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Lilac\EntryPoint.h">
       <Filter>Lilac</Filter>
     </ClInclude>
+    <ClInclude Include="src\Lilac\Events\ApplicationEvent.h">
+      <Filter>Lilac\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\Events\Event.h">
+      <Filter>Lilac\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\Events\KeyEvent.h">
+      <Filter>Lilac\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lilac\Events\MouseEvent.h">
+      <Filter>Lilac\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Lilac\Log.h">
       <Filter>Lilac</Filter>
     </ClInclude>
+    <ClInclude Include="src\llpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Lilac\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Lilac\Log.cpp">
       <Filter>Lilac</Filter>
     </ClCompile>
+    <ClCompile Include="src\llpch.cpp" />
   </ItemGroup>
 </Project>

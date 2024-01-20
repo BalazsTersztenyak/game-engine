@@ -2,9 +2,6 @@
 
 #include "Lilac/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Lilac
 {
 
