@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>LL_PLATFORM_WINDOWS;LL_BUILD_DLL;LL_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -150,6 +150,10 @@
     <ClInclude Include="src\Lilac\Application.h" />
     <ClInclude Include="src\Lilac\Core.h" />
     <ClInclude Include="src\Lilac\EntryPoint.h" />
+    <ClInclude Include="src\Lilac\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Lilac\Events\Event.h" />
+    <ClInclude Include="src\Lilac\Events\KeyEvent.h" />
+    <ClInclude Include="src\Lilac\Events\MouseEvent.h" />
     <ClInclude Include="src\Lilac\Log.h" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,7 @@
 #pragma once
 
-#include "Core.h"
+#include "Lilac/Core.h"
+#include "Lilac/Events/Event.h"
 
 namespace Lilac {
 	class LILAC_API Application
